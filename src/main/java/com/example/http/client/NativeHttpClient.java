@@ -1,4 +1,4 @@
-package com.example.api.client;
+package com.example.http.client;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
