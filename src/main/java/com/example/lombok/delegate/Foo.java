@@ -7,4 +7,6 @@ public class Foo {
 
     String name;
 
+    String address;
+
 }

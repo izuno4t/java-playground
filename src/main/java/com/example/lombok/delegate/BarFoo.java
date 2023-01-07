@@ -4,15 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.experimental.Delegate;
 
 @AllArgsConstructor
-public class FooBar {
+public class BarFoo {
+    @Delegate
+    private final Bar bar;
 
     @Delegate
     private final Foo foo;
 
-    @Delegate
-    private final Bar bar;
-
-    public String getBarName() {
-        return bar.getName();
-    }
 }

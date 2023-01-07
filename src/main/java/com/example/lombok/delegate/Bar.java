@@ -7,4 +7,6 @@ public class Bar {
 
     String name;
 
+    Integer counter;
+
 }
