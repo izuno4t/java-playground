@@ -1,14 +1,12 @@
 package com.example.mapstruct.withlombok;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Value;
 
-@Data
-@AllArgsConstructor
+@Value
 public class Car {
 
     String make;
-    int seatCount;
+    int numberOfSeats;
     CarType type;
 
 }
